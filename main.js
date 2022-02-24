@@ -1,8 +1,16 @@
-import decrement from './decrement.js'
-import increment from './increment.js'
-import reset from './reset.js'
+let value = 0
 
-let value = 3
-console.log(increment(value))
-console.log(reset())
-console.log(decrement(value))
+const counter = document.getElementById('counter')
+counter.innerHTML = value
+
+function increment() {
+  counter.innerHTML = ++value
+}
+
+function decrement() {
+  counter.innerHTML = --value
+}
+
+const reset = () => {
+  counter.innerHTML = 0
+}
