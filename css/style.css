@@ -6,7 +6,7 @@ body{
 }
 
 main{
-  background-color: #ebebeb;
+  background-color: #e6e5e5;
   width: 700px;
   height: 500px;
   margin: auto;
@@ -16,13 +16,14 @@ main{
 }
 
 h1{
-  font-size: 68px;
-  color: #1717a7;
+  font-size: 72px;
+  color: #14144b;
+  font-weight: bolder;
 }
 
 h2{
-  font-size: 68px;
-  color: darkgreen;
+  font-size: 80px;
+  color: rgb(9, 109, 9);
 }
 
 button{
@@ -38,8 +39,8 @@ button{
 }
 
 button:hover{
-  border: 3px solid rgba(24, 46, 145, 0.842);
-  color:rgba(24, 46, 145, 0.842);
+  border: 3px solid rgba(19, 40, 133, 0.842);
+  color:rgba(23, 45, 143, 0.842);
   cursor: pointer;
 }
 
