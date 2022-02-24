@@ -13,4 +13,5 @@ function decrement() {
 
 const reset = () => {
   counter.innerHTML = 0
+  value = 0
 }
