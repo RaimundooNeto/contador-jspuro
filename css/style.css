@@ -39,7 +39,7 @@ button{
 }
 
 button:hover{
-  border: 3px solid rgba(19, 40, 133, 0.842);
+  border: 2px solid rgba(19, 40, 133, 0.842);
   color:rgba(23, 45, 143, 0.842);
   cursor: pointer;
 }
