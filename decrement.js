@@ -1,6 +1,5 @@
-
-function decrement(valor){
-    return valor--
+function decrement(value) {
+  return --value
 }
 
 export default decrement
